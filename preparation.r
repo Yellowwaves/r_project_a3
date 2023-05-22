@@ -4,7 +4,7 @@ library(ggplot2)
 
 df <- read.csv("stat_acc_V3.csv", header = TRUE, sep = ";")
 
-unique_descr <- unique(df$descr_dispo_secu)
+unique_descr <- unique(df$id_code_insee)
 print(unique_descr)
 
 
